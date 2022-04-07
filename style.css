@@ -1,0 +1,97 @@
+@import "https://unpkg.com/aos@next/dist/aos.css";
+body {
+  background-color: rgb(19, 20, 23);
+  color: rgb(87, 208, 167);
+  min-width: 600px;
+}
+.row {
+  margin: 10px;
+}
+h1 {
+  margin: 20px;
+  font-size: 28px;
+  color: rgb(78, 121, 251);
+}
+h2 {
+  font-size: 24px;
+  margin: 15px;
+}
+h3 {
+  margin: 10px;
+}
+.header {
+  text-align: center;
+  border: 5px whitesmoke dashed;
+}
+h3 {
+  font-size: 20px;
+}
+.alert {
+  color: rgb(253, 198, 45);
+}
+input {
+  padding: 7px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+}
+.btn {
+  margin: 15px;
+  padding: 8px 16px;
+  border-radius: 10px;
+  background: rgb(247, 93, 117);
+  border: 1px solid rgb(253, 198, 45);
+  box-shadow: -4px 4px 0 0 rgb(253, 198, 45);
+}
+
+.col-4 {
+  text-align: center;
+  padding: 10px 20px;
+  border: 5px whitesmoke dashed;
+}
+.end li {
+  list-style: none;
+  margin: 30px 20px;
+  color: rgb(78, 121, 251);
+  padding: 5px;
+  font-size: 30px;
+  background: rgb(19, 20, 23);
+  border: 1px solid rgb(253, 198, 45);
+  box-shadow: -4px 4px 0 0 rgb(253, 198, 45);
+}
+.start {
+  visibility: hidden;
+}
+.start-display {
+  visibility: visible;
+}
+.middle {
+  visibility: hidden;
+}
+.middle-display {
+  visibility: visible;
+}
+.end {
+  visibility: hidden;
+}
+.end-display {
+  visibility: visible;
+}
+
+.links-socialMidia {
+  display: flex;
+
+  justify-content: space-between;
+}
+.social-midia a {
+  text-align: center;
+  font-size: 15px;
+  text-decoration: none;
+  color: whitesmoke;
+}
+.social-midia i {
+  margin: 10px;
+  display: block;
+  font-size: 20px;
+  color: whitesmoke;
+}
